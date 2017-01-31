@@ -14,6 +14,8 @@
 		F365463C1E40366C000F8640 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F365463A1E40366C000F8640 /* LaunchScreen.storyboard */; };
 		F36546471E40366C000F8640 /* CallAnotherViewControllerPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36546461E40366C000F8640 /* CallAnotherViewControllerPracticeTests.swift */; };
 		F36546521E40366C000F8640 /* CallAnotherViewControllerPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36546511E40366C000F8640 /* CallAnotherViewControllerPracticeUITests.swift */; };
+		F36546601E4036A5000F8640 /* Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F365465F1E4036A5000F8640 /* Second.storyboard */; };
+		F36546621E4036B3000F8640 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36546611E4036B3000F8640 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		F365464D1E40366C000F8640 /* CallAnotherViewControllerPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CallAnotherViewControllerPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F36546511E40366C000F8640 /* CallAnotherViewControllerPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallAnotherViewControllerPracticeUITests.swift; sourceTree = "<group>"; };
 		F36546531E40366C000F8640 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F365465F1E4036A5000F8640 /* Second.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Second.storyboard; sourceTree = "<group>"; };
+		F36546611E4036B3000F8640 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				F36546381E40366C000F8640 /* Assets.xcassets */,
 				F365463A1E40366C000F8640 /* LaunchScreen.storyboard */,
 				F365463D1E40366C000F8640 /* Info.plist */,
+				F365465F1E4036A5000F8640 /* Second.storyboard */,
+				F36546611E4036B3000F8640 /* SecondViewController.swift */,
 			);
 			path = CallAnotherViewControllerPractice;
 			sourceTree = "<group>";
@@ -235,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F36546601E4036A5000F8640 /* Second.storyboard in Resources */,
 				F365463C1E40366C000F8640 /* LaunchScreen.storyboard in Resources */,
 				F36546391E40366C000F8640 /* Assets.xcassets in Resources */,
 				F36546371E40366C000F8640 /* Main.storyboard in Resources */,
@@ -262,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F36546621E4036B3000F8640 /* SecondViewController.swift in Sources */,
 				F36546341E40366C000F8640 /* ViewController.swift in Sources */,
 				F36546321E40366C000F8640 /* AppDelegate.swift in Sources */,
 			);
